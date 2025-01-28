@@ -1,0 +1,40 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8157"
+	"mapversion" "777"
+	"formatversion" "100"
+	"prefab" "0"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"chaptertitle" "#twhltower_Bonus3_Title"
+	"chaptertitlenomessage" "1"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"newunit" "1"
+	"skyname" "sky_day01_06_hdr"
+	"vscriptlanguage_client" "-2"
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-384 -64 -336)"
+	"maxs" "(1296 1296 272)"
+	"active" "0"
+}

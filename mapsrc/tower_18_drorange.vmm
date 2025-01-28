@@ -1,0 +1,50 @@
+Info
+{
+	"NextInternalID" "8"
+}
+Maps
+{
+	VMF
+	{
+		"Name" "Main"
+		"File" "tower_finale_dev.vmf"
+		"InternalID" "1"
+		"TopLevel" "1"
+	}
+	VMF
+	{
+		"Name" "Entrance Stairwell"
+		"File" "entrance_stairs.vmf"
+		"InternalID" "2"
+	}
+	VMF
+	{
+		"Name" "Offices"
+		"File" "offices.vmf"
+		"InternalID" "3"
+	}
+	VMF
+	{
+		"Name" "Nodes"
+		"File" "nodes.vmf"
+		"InternalID" "4"
+	}
+	VMF
+	{
+		"Name" "Roof"
+		"File" "roof.vmf"
+		"InternalID" "5"
+	}
+	VMF
+	{
+		"Name" "Helicopter"
+		"File" "helicopter.vmf"
+		"InternalID" "6"
+	}
+	VMF
+	{
+		"Name" "Skybox"
+		"File" "skybox.vmf"
+		"InternalID" "7"
+	}
+}

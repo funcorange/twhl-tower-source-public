@@ -1,0 +1,74 @@
+Info
+{
+	"NextInternalID" "12"
+}
+Maps
+{
+	VMF
+	{
+		"Name" "unnamed"
+		"File" "tower_01_drorange_dev.vmf"
+		"InternalID" "1"
+		"TopLevel" "1"
+	}
+	VMF
+	{
+		"Name" "Stairs"
+		"File" "stairs.vmf"
+		"InternalID" "2"
+	}
+	VMF
+	{
+		"Name" "Building"
+		"File" "building.vmf"
+		"InternalID" "3"
+	}
+	VMF
+	{
+		"Name" "Outside"
+		"File" "outside.vmf"
+		"InternalID" "4"
+	}
+	VMF
+	{
+		"Name" "Nodes"
+		"File" "nodes.vmf"
+		"InternalID" "5"
+	}
+	VMF
+	{
+		"Name" "Skybox"
+		"File" "skybox.vmf"
+		"InternalID" "6"
+	}
+	VMF
+	{
+		"Name" "streets"
+		"File" "Streets.vmf"
+		"InternalID" "7"
+	}
+	VMF
+	{
+		"Name" "Floor 4 Camera"
+		"File" "f4cam.vmf"
+		"InternalID" "8"
+	}
+	VMF
+	{
+		"Name" "Floor 12 camera"
+		"File" "f12cam.vmf"
+		"InternalID" "9"
+	}
+	VMF
+	{
+		"Name" "Floor 13 Camera"
+		"File" "f13cam.vmf"
+		"InternalID" "10"
+	}
+	VMF
+	{
+		"Name" "Environment Entities"
+		"File" "env_ents.vmf"
+		"InternalID" "11"
+	}
+}

@@ -1,0 +1,44 @@
+Info
+{
+	"NextInternalID" "7"
+}
+Maps
+{
+	VMF
+	{
+		"Name" "unnamed"
+		"File" "tower_bonus_03_drorange.vmf"
+		"InternalID" "1"
+		"TopLevel" "1"
+	}
+	VMF
+	{
+		"Name" "Stairs"
+		"File" "stairs.vmf"
+		"InternalID" "2"
+	}
+	VMF
+	{
+		"Name" "Control Room"
+		"File" "control_room.vmf"
+		"InternalID" "3"
+	}
+	VMF
+	{
+		"Name" "Arena"
+		"File" "arena.vmf"
+		"InternalID" "4"
+	}
+	VMF
+	{
+		"Name" "Nodes"
+		"File" "nodes.vmf"
+		"InternalID" "5"
+	}
+	VMF
+	{
+		"Name" "Challenge Entities"
+		"File" "challenge_ents.vmf"
+		"InternalID" "6"
+	}
+}

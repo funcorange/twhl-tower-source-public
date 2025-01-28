@@ -1,0 +1,27 @@
+//-----------------------------------------------------------------------------
+//	DEFAULT.VGC
+//
+//	Configurations for all Source(TM) Projects
+//-----------------------------------------------------------------------------
+
+////////////////
+// Game Names //
+////////////////
+
+$Games
+{
+	"EPISODIC"
+	"HL2"
+	"TWHLTOWER"
+}
+
+// Makes the VPC scripts work in the SDK's context
+$Conditional "SOURCESDK" "1"
+
+// Mapbase
+$Conditional "MAPBASE" "1"
+$Conditional "MAPBASE_VSCRIPT" "1"
+
+$Include "vpc_scripts\projects.vgc"
+$Include "vpc_scripts\groups.vgc"
+

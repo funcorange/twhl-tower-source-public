@@ -1,0 +1,1865 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8157"
+	"mapversion" "75"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "75"
+	"classname" "worldspawn"
+	"chaptertitlenomessage" "1"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	"vscriptlanguage_client" "-2"
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_tower/keypad_base.mdl"
+	"modelscale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"targetname" "keypad_base_model"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "21"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_tower/keypad_button09.mdl"
+	"modelscale" "1.0"
+	"parentname" "keypad_button09"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"targetname" "keypad_button09_model"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "32"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_tower/keypad_button01.mdl"
+	"modelscale" "1.0"
+	"parentname" "keypad_button01"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"targetname" "keypad_button01_model"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "43"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_tower/keypad_button02.mdl"
+	"modelscale" "1.0"
+	"parentname" "keypad_button02"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"targetname" "keypad_button02_model"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "54"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_tower/keypad_button03.mdl"
+	"modelscale" "1.0"
+	"parentname" "keypad_button03"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"targetname" "keypad_button03_model"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "65"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_tower/keypad_button04.mdl"
+	"modelscale" "1.0"
+	"parentname" "keypad_button04"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"targetname" "keypad_button04_model"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "76"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_tower/keypad_button05.mdl"
+	"modelscale" "1.0"
+	"parentname" "keypad_button05"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"targetname" "keypad_button05_model"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "87"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_tower/keypad_button06.mdl"
+	"modelscale" "1.0"
+	"parentname" "keypad_button06"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"targetname" "keypad_button06_model"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "102"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_tower/keypad_button07.mdl"
+	"modelscale" "1.0"
+	"parentname" "keypad_button07"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"targetname" "keypad_button07_model"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "113"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_tower/keypad_button08.mdl"
+	"modelscale" "1.0"
+	"parentname" "keypad_button08"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"targetname" "keypad_button08_model"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "331"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"EFlags" "0"
+	"glowcoloroverride" "0 0 0 0"
+	"glowproxy" "keypad_button01_model"
+	"lip" "1"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 180 0"
+	"origin" "1 -1.5 -0.5"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "15"
+	"spawnflags" "1024"
+	"speed" "1"
+	"targetname" "keypad_button01"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"viewhideflags" "0"
+	"wait" "0"
+	connections
+	{
+		"OnPressed" "counter_digit01,SetValue,1,0,-1"
+		"OnPressed" "counter_digit02,SetValue,1,0,-1"
+		"OnPressed" "counter_digit03,SetValue,1,0,-1"
+		"OnPressed" "counter_digit04,SetValue,1,0,-1"
+	}
+	solid
+	{
+		"id" "328"
+		side
+		{
+			"id" "1"
+			"plane" "(1.5 -2.25 0.25) (0.5 -2.25 0.25) (0.5 -0.75 0.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(1.5 -0.75 -1.25) (0.5 -0.75 -1.25) (0.5 -2.25 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(1.5 -2.25 -1.25) (0.5 -2.25 -1.25) (0.5 -2.25 0.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(0.5 -0.75 -1.25) (1.5 -0.75 -1.25) (1.5 -0.75 0.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(0.5 -2.25 -1.25) (0.5 -0.75 -1.25) (0.5 -0.75 0.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(1.5 -0.75 -1.25) (1.5 -2.25 -1.25) (1.5 -2.25 0.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "665"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"EFlags" "0"
+	"glowcoloroverride" "0 0 0 0"
+	"glowproxy" "keypad_button02_model"
+	"lip" "1"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 180 0"
+	"origin" "1 0 -0.5"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "15"
+	"spawnflags" "1024"
+	"speed" "1"
+	"targetname" "keypad_button02"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"viewhideflags" "0"
+	"wait" "0"
+	connections
+	{
+		"OnPressed" "counter_digit04,SetValue,2,0,-1"
+		"OnPressed" "counter_digit03,SetValue,2,0,-1"
+		"OnPressed" "counter_digit02,SetValue,2,0,-1"
+		"OnPressed" "counter_digit01,SetValue,2,0,-1"
+	}
+	solid
+	{
+		"id" "666"
+		side
+		{
+			"id" "90"
+			"plane" "(1.5 -0.75 0.25) (0.5 -0.75 0.25) (0.5 0.75 0.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "89"
+			"plane" "(1.5 0.75 -1.25) (0.5 0.75 -1.25) (0.5 -0.75 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "88"
+			"plane" "(1.5 -0.75 -1.25) (0.5 -0.75 -1.25) (0.5 -0.75 0.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "87"
+			"plane" "(0.5 0.75 -1.25) (1.5 0.75 -1.25) (1.5 0.75 0.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "86"
+			"plane" "(0.5 -0.75 -1.25) (0.5 0.75 -1.25) (0.5 0.75 0.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 -6] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "85"
+			"plane" "(1.5 0.75 -1.25) (1.5 -0.75 -1.25) (1.5 -0.75 0.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 -6] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "674"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"EFlags" "0"
+	"glowcoloroverride" "0 0 0 0"
+	"glowproxy" "keypad_button03_model"
+	"lip" "1"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 180 0"
+	"origin" "1 1.5 -0.5"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "15"
+	"spawnflags" "1024"
+	"speed" "1"
+	"targetname" "keypad_button03"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"viewhideflags" "0"
+	"wait" "0"
+	connections
+	{
+		"OnPressed" "counter_digit04,SetValue,3,0,-1"
+		"OnPressed" "counter_digit03,SetValue,3,0,-1"
+		"OnPressed" "counter_digit02,SetValue,3,0,-1"
+		"OnPressed" "counter_digit01,SetValue,3,0,-1"
+	}
+	solid
+	{
+		"id" "675"
+		side
+		{
+			"id" "102"
+			"plane" "(1.5 0.75 0.25) (0.5 0.75 0.25) (0.5 2.25 0.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "101"
+			"plane" "(1.5 2.25 -1.25) (0.5 2.25 -1.25) (0.5 0.75 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "100"
+			"plane" "(1.5 0.75 -1.25) (0.5 0.75 -1.25) (0.5 0.75 0.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "99"
+			"plane" "(0.5 2.25 -1.25) (1.5 2.25 -1.25) (1.5 2.25 0.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "98"
+			"plane" "(0.5 0.75 -1.25) (0.5 2.25 -1.25) (0.5 2.25 0.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 -12] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "97"
+			"plane" "(1.5 2.25 -1.25) (1.5 0.75 -1.25) (1.5 0.75 0.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 -12] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "698"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"EFlags" "0"
+	"glowcoloroverride" "0 0 0 0"
+	"glowproxy" "keypad_button04_model"
+	"lip" "1"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 180 0"
+	"origin" "1 -1.5 -2"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "15"
+	"spawnflags" "1024"
+	"speed" "1"
+	"targetname" "keypad_button04"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"viewhideflags" "0"
+	"wait" "0"
+	connections
+	{
+		"OnPressed" "counter_digit04,SetValue,4,0,-1"
+		"OnPressed" "counter_digit03,SetValue,4,0,-1"
+		"OnPressed" "counter_digit02,SetValue,4,0,-1"
+		"OnPressed" "counter_digit01,SetValue,4,0,-1"
+	}
+	solid
+	{
+		"id" "699"
+		side
+		{
+			"id" "162"
+			"plane" "(1.5 -2.25 -1.25) (0.5 -2.25 -1.25) (0.5 -0.75 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "161"
+			"plane" "(1.5 -0.75 -2.75) (0.5 -0.75 -2.75) (0.5 -2.25 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "160"
+			"plane" "(1.5 -2.25 -2.75) (0.5 -2.25 -2.75) (0.5 -2.25 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "159"
+			"plane" "(0.5 -0.75 -2.75) (1.5 -0.75 -2.75) (1.5 -0.75 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "158"
+			"plane" "(0.5 -2.25 -2.75) (0.5 -0.75 -2.75) (0.5 -0.75 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "157"
+			"plane" "(1.5 -0.75 -2.75) (1.5 -2.25 -2.75) (1.5 -2.25 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "701"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"EFlags" "0"
+	"glowcoloroverride" "0 0 0 0"
+	"glowproxy" "keypad_button05_model"
+	"lip" "1"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 180 0"
+	"origin" "1 0 -2"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "15"
+	"spawnflags" "1024"
+	"speed" "1"
+	"targetname" "keypad_button05"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"viewhideflags" "0"
+	"wait" "0"
+	connections
+	{
+		"OnPressed" "counter_digit04,SetValue,5,0,-1"
+		"OnPressed" "counter_digit03,SetValue,5,0,-1"
+		"OnPressed" "counter_digit02,SetValue,5,0,-1"
+		"OnPressed" "counter_digit01,SetValue,5,0,-1"
+	}
+	solid
+	{
+		"id" "702"
+		side
+		{
+			"id" "168"
+			"plane" "(1.5 -0.75 -1.25) (0.5 -0.75 -1.25) (0.5 0.75 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "167"
+			"plane" "(1.5 0.75 -2.75) (0.5 0.75 -2.75) (0.5 -0.75 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "166"
+			"plane" "(1.5 -0.75 -2.75) (0.5 -0.75 -2.75) (0.5 -0.75 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "165"
+			"plane" "(0.5 0.75 -2.75) (1.5 0.75 -2.75) (1.5 0.75 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "164"
+			"plane" "(0.5 -0.75 -2.75) (0.5 0.75 -2.75) (0.5 0.75 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 -6] 0.25"
+			"vaxis" "[0 0 -1 -6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "163"
+			"plane" "(1.5 0.75 -2.75) (1.5 -0.75 -2.75) (1.5 -0.75 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 -6] 0.25"
+			"vaxis" "[0 0 -1 -6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "704"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"EFlags" "0"
+	"glowcoloroverride" "0 0 0 0"
+	"glowproxy" "keypad_button06_model"
+	"lip" "1"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 180 0"
+	"origin" "1 1.5 -2"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "15"
+	"spawnflags" "1024"
+	"speed" "1"
+	"targetname" "keypad_button06"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"viewhideflags" "0"
+	"wait" "0"
+	connections
+	{
+		"OnPressed" "counter_digit04,SetValue,6,0,-1"
+		"OnPressed" "counter_digit03,SetValue,6,0,-1"
+		"OnPressed" "counter_digit02,SetValue,6,0,-1"
+		"OnPressed" "counter_digit01,SetValue,6,0,-1"
+	}
+	solid
+	{
+		"id" "705"
+		side
+		{
+			"id" "174"
+			"plane" "(1.5 0.75 -1.25) (0.5 0.75 -1.25) (0.5 2.25 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "173"
+			"plane" "(1.5 2.25 -2.75) (0.5 2.25 -2.75) (0.5 0.75 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "172"
+			"plane" "(1.5 0.75 -2.75) (0.5 0.75 -2.75) (0.5 0.75 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "171"
+			"plane" "(0.5 2.25 -2.75) (1.5 2.25 -2.75) (1.5 2.25 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "170"
+			"plane" "(0.5 0.75 -2.75) (0.5 2.25 -2.75) (0.5 2.25 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 -12] 0.25"
+			"vaxis" "[0 0 -1 -6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "169"
+			"plane" "(1.5 2.25 -2.75) (1.5 0.75 -2.75) (1.5 0.75 -1.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 -12] 0.25"
+			"vaxis" "[0 0 -1 -6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "725"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"EFlags" "0"
+	"glowcoloroverride" "0 0 0 0"
+	"glowproxy" "keypad_button07_model"
+	"lip" "1"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 180 0"
+	"origin" "1 -1.5 -3.5"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "15"
+	"spawnflags" "1024"
+	"speed" "1"
+	"targetname" "keypad_button07"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"viewhideflags" "0"
+	"wait" "0"
+	connections
+	{
+		"OnPressed" "counter_digit04,SetValue,7,0,-1"
+		"OnPressed" "counter_digit03,SetValue,7,0,-1"
+		"OnPressed" "counter_digit02,SetValue,7,0,-1"
+		"OnPressed" "counter_digit01,SetValue,7,0,-1"
+	}
+	solid
+	{
+		"id" "726"
+		side
+		{
+			"id" "198"
+			"plane" "(1.5 -2.25 -2.75) (0.5 -2.25 -2.75) (0.5 -0.75 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "197"
+			"plane" "(1.5 -0.75 -4.25) (0.5 -0.75 -4.25) (0.5 -2.25 -4.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "196"
+			"plane" "(1.5 -2.25 -4.25) (0.5 -2.25 -4.25) (0.5 -2.25 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "195"
+			"plane" "(0.5 -0.75 -4.25) (1.5 -0.75 -4.25) (1.5 -0.75 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "194"
+			"plane" "(0.5 -2.25 -4.25) (0.5 -0.75 -4.25) (0.5 -0.75 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "193"
+			"plane" "(1.5 -0.75 -4.25) (1.5 -2.25 -4.25) (1.5 -2.25 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "728"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"EFlags" "0"
+	"glowcoloroverride" "0 0 0 0"
+	"glowproxy" "keypad_button08_model"
+	"lip" "1"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 180 0"
+	"origin" "1 0 -3.5"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "15"
+	"spawnflags" "1024"
+	"speed" "1"
+	"targetname" "keypad_button08"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"viewhideflags" "0"
+	"wait" "0"
+	connections
+	{
+		"OnPressed" "counter_digit04,SetValue,8,0,-1"
+		"OnPressed" "counter_digit03,SetValue,8,0,-1"
+		"OnPressed" "counter_digit02,SetValue,8,0,-1"
+		"OnPressed" "counter_digit01,SetValue,8,0,-1"
+	}
+	solid
+	{
+		"id" "729"
+		side
+		{
+			"id" "204"
+			"plane" "(1.5 -0.75 -2.75) (0.5 -0.75 -2.75) (0.5 0.75 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "203"
+			"plane" "(1.5 0.75 -4.25) (0.5 0.75 -4.25) (0.5 -0.75 -4.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 6] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "202"
+			"plane" "(1.5 -0.75 -4.25) (0.5 -0.75 -4.25) (0.5 -0.75 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "201"
+			"plane" "(0.5 0.75 -4.25) (1.5 0.75 -4.25) (1.5 0.75 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "200"
+			"plane" "(0.5 -0.75 -4.25) (0.5 0.75 -4.25) (0.5 0.75 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 -6] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "199"
+			"plane" "(1.5 0.75 -4.25) (1.5 -0.75 -4.25) (1.5 -0.75 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 -6] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "731"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"EFlags" "0"
+	"glowcoloroverride" "0 0 0 0"
+	"glowproxy" "keypad_button09_model"
+	"lip" "1"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 180 0"
+	"origin" "1 1.5 -3.5"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "15"
+	"spawnflags" "1024"
+	"speed" "1"
+	"targetname" "keypad_button09"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"viewhideflags" "0"
+	"wait" "0"
+	connections
+	{
+		"OnPressed" "counter_digit04,SetValue,9,0,-1"
+		"OnPressed" "counter_digit03,SetValue,9,0,-1"
+		"OnPressed" "counter_digit02,SetValue,9,0,-1"
+		"OnPressed" "counter_digit01,SetValue,9,0,-1"
+	}
+	solid
+	{
+		"id" "732"
+		side
+		{
+			"id" "210"
+			"plane" "(1.5 0.75 -2.75) (0.5 0.75 -2.75) (0.5 2.25 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "209"
+			"plane" "(1.5 2.25 -4.25) (0.5 2.25 -4.25) (0.5 0.75 -4.25)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "208"
+			"plane" "(1.5 0.75 -4.25) (0.5 0.75 -4.25) (0.5 0.75 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "207"
+			"plane" "(0.5 2.25 -4.25) (1.5 2.25 -4.25) (1.5 2.25 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "206"
+			"plane" "(0.5 0.75 -4.25) (0.5 2.25 -4.25) (0.5 2.25 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 -12] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "205"
+			"plane" "(1.5 2.25 -4.25) (1.5 0.75 -4.25) (1.5 0.75 -2.75)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 -12] 0.25"
+			"vaxis" "[0 0 -1 -12] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "823"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_tower/keypad_digit01.mdl"
+	"modelscale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"targetname" "keypad_digit01_model"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "846"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_tower/keypad_digit02.mdl"
+	"modelscale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"targetname" "keypad_digit02_model"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "857"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_tower/keypad_digit03.mdl"
+	"modelscale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"targetname" "keypad_digit03_model"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "868"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_tower/keypad_digit04.mdl"
+	"modelscale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"targetname" "keypad_digit04_model"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "961"
+	"classname" "logic_case"
+	"Case01" "1"
+	"Case02" "2"
+	"Case03" "3"
+	"Case04" "4"
+	"Case05" "5"
+	"Case06" "6"
+	"Case07" "7"
+	"Case08" "8"
+	"Case09" "9"
+	"targetname" "case_digit01"
+	connections
+	{
+		"OnCase01" "keypad_digit01_model,Skin,1,0,-1"
+		"OnCase02" "keypad_digit01_model,Skin,2,0,-1"
+		"OnCase03" "keypad_digit01_model,Skin,3,0,-1"
+		"OnCase04" "keypad_digit01_model,Skin,4,0,-1"
+		"OnCase05" "keypad_digit01_model,Skin,5,0,-1"
+		"OnCase06" "keypad_digit01_model,Skin,6,0,-1"
+		"OnCase07" "keypad_digit01_model,Skin,7,0,-1"
+		"OnCase08" "keypad_digit01_model,Skin,8,0,-1"
+		"OnCase09" "keypad_digit01_model,Skin,9,0,-1"
+	}
+	"origin" "8 8 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1053"
+	"classname" "logic_case"
+	"Case01" "1"
+	"Case02" "2"
+	"Case03" "3"
+	"Case04" "4"
+	"Case05" "5"
+	"Case06" "6"
+	"Case07" "7"
+	"Case08" "8"
+	"Case09" "9"
+	"targetname" "case_digit02"
+	connections
+	{
+		"OnCase01" "keypad_digit02_model,Skin,1,0,-1"
+		"OnCase02" "keypad_digit02_model,Skin,2,0,-1"
+		"OnCase03" "keypad_digit02_model,Skin,3,0,-1"
+		"OnCase04" "keypad_digit02_model,Skin,4,0,-1"
+		"OnCase05" "keypad_digit02_model,Skin,5,0,-1"
+		"OnCase06" "keypad_digit02_model,Skin,6,0,-1"
+		"OnCase07" "keypad_digit02_model,Skin,7,0,-1"
+		"OnCase08" "keypad_digit02_model,Skin,8,0,-1"
+		"OnCase09" "keypad_digit02_model,Skin,9,0,-1"
+	}
+	"origin" "16 8 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1061"
+	"classname" "logic_case"
+	"Case01" "1"
+	"Case02" "2"
+	"Case03" "3"
+	"Case04" "4"
+	"Case05" "5"
+	"Case06" "6"
+	"Case07" "7"
+	"Case08" "8"
+	"Case09" "9"
+	"targetname" "case_digit03"
+	connections
+	{
+		"OnCase01" "keypad_digit03_model,Skin,1,0,-1"
+		"OnCase02" "keypad_digit03_model,Skin,2,0,-1"
+		"OnCase03" "keypad_digit03_model,Skin,3,0,-1"
+		"OnCase04" "keypad_digit03_model,Skin,4,0,-1"
+		"OnCase05" "keypad_digit03_model,Skin,5,0,-1"
+		"OnCase06" "keypad_digit03_model,Skin,6,0,-1"
+		"OnCase07" "keypad_digit03_model,Skin,7,0,-1"
+		"OnCase08" "keypad_digit03_model,Skin,8,0,-1"
+		"OnCase09" "keypad_digit03_model,Skin,9,0,-1"
+	}
+	"origin" "24 8 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1067"
+	"classname" "logic_case"
+	"Case01" "1"
+	"Case02" "2"
+	"Case03" "3"
+	"Case04" "4"
+	"Case05" "5"
+	"Case06" "6"
+	"Case07" "7"
+	"Case08" "8"
+	"Case09" "9"
+	"targetname" "case_digit04"
+	connections
+	{
+		"OnCase01" "keypad_digit04_model,Skin,1,0,-1"
+		"OnCase02" "keypad_digit04_model,Skin,2,0,-1"
+		"OnCase03" "keypad_digit04_model,Skin,3,0,-1"
+		"OnCase04" "keypad_digit04_model,Skin,4,0,-1"
+		"OnCase05" "keypad_digit04_model,Skin,5,0,-1"
+		"OnCase06" "keypad_digit04_model,Skin,6,0,-1"
+		"OnCase07" "keypad_digit04_model,Skin,7,0,-1"
+		"OnCase08" "keypad_digit04_model,Skin,8,0,-1"
+		"OnCase09" "keypad_digit04_model,Skin,9,0,-1"
+	}
+	"origin" "32 8 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1087"
+	"classname" "logic_sequence"
+	"Case01" "$digit1"
+	"Case02" "$digit2"
+	"Case03" "$digit3"
+	"Case04" "$digit4"
+	"InitialCase" "1"
+	"targetname" "sequence"
+	connections
+	{
+		"OnCaseFail" "branch,SetValue,0,0,-1"
+	}
+	"origin" "8 8 24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "1095"
+	"classname" "logic_branch"
+	"InitialValue" "1"
+	"targetname" "branch"
+	connections
+	{
+		"OnTrue" "relay_access,Trigger,,0,-1"
+		"OnFalse" "relay_error,Trigger,,0,-1"
+	}
+	"origin" "8 8 40"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "1137"
+	"classname" "math_counter"
+	"max" "0"
+	"targetname" "counter_digit01"
+	connections
+	{
+		"OutValue" "case_digit01,InValue,,0,-1"
+		"OutValue" "sequence,InValue,,0,-1"
+		"OutValue" "counter_digit01,Disable,,0,-1"
+		"OutValue" "counter_digit02,Enable,,0,-1"
+	}
+	"origin" "8 8 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "1161"
+	"classname" "math_counter"
+	"max" "0"
+	"StartDisabled" "1"
+	"targetname" "counter_digit02"
+	connections
+	{
+		"OutValue" "sequence,InValue,,0,-1"
+		"OutValue" "case_digit02,InValue,,0,-1"
+		"OutValue" "counter_digit03,Enable,,0,-1"
+		"OutValue" "counter_digit02,Disable,,0,-1"
+	}
+	"origin" "16 8 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "1169"
+	"classname" "math_counter"
+	"max" "0"
+	"StartDisabled" "1"
+	"targetname" "counter_digit03"
+	connections
+	{
+		"OutValue" "sequence,InValue,,0,-1"
+		"OutValue" "case_digit03,InValue,,0,-1"
+		"OutValue" "counter_digit04,Enable,,0,-1"
+		"OutValue" "counter_digit03,Disable,,0,-1"
+	}
+	"origin" "24 8 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "1175"
+	"classname" "math_counter"
+	"max" "0"
+	"StartDisabled" "1"
+	"targetname" "counter_digit04"
+	connections
+	{
+		"OutValue" "sequence,InValue,,0,-1"
+		"OutValue" "case_digit04,InValue,,0,-1"
+		"OutValue" "counter_digit04,Disable,,0,-1"
+		"OutValue" "branch,Test,,0.5,-1"
+		"OutValue" "keypad_button*,Lock,,0,-1"
+	}
+	"origin" "32 8 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "1361"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "Buttons.snd3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"SourceEntityName" "keypad_base_model"
+	"spawnflags" "48"
+	"targetname" "sound_access"
+	"origin" "8 -8 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "1373"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "Buttons.snd2"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"SourceEntityName" "keypad_base_model"
+	"spawnflags" "48"
+	"targetname" "sound_error"
+	"origin" "16 -8 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "1385"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "relay_access"
+	connections
+	{
+		"OnTrigger" "sound_access,PlaySound,,0,-1"
+		"OnTrigger" "keypad_digit01_model,Disable,,0,-1"
+		"OnTrigger" "keypad_digit03_model,Disable,,0,-1"
+		"OnTrigger" "keypad_digit02_model,Disable,,0,-1"
+		"OnTrigger" "keypad_digit04_model,Disable,,0,-1"
+		"OnTrigger" "keypad_base_model,Skin,1,0,-1"
+		"OnTrigger" "relay_on_success,Trigger,,0.5,-1"
+		"OnTrigger" "keypad_panel_model,Skin,4,0,-1"
+		"OnTrigger" "keypad_panel_model,Skin,0,0.3,-1"
+		"OnTrigger" "keypad_panel_model,Skin,4,0.5,-1"
+		"OnTrigger" "relay_correct,Trigger,,0,-1"
+	}
+	"origin" "8 -8 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "1409"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "relay_error"
+	connections
+	{
+		"OnTrigger" "sound_error,PlaySound,,0,-1"
+		"OnTrigger" "keypad_digit01_model,Disable,,0,-1"
+		"OnTrigger" "keypad_digit03_model,Disable,,0,-1"
+		"OnTrigger" "keypad_digit02_model,Disable,,0,-1"
+		"OnTrigger" "keypad_digit04_model,Disable,,0,-1"
+		"OnTrigger" "keypad_base_model,Skin,2,0,-1"
+		"OnTrigger" "keypad_base_model,Skin,0,0.3,-1"
+		"OnTrigger" "keypad_base_model,Skin,2,0.5,-1"
+		"OnTrigger" "keypad_base_model,Skin,0,1,-1"
+		"OnTrigger" "relay_reset,Trigger,,1,-1"
+	}
+	"origin" "16 -8 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "1427"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"targetname" "relay_reset"
+	connections
+	{
+		"OnTrigger" "sequence,ResetSequence,,0,-1"
+		"OnTrigger" "keypad_digit01_model,Enable,,0,-1"
+		"OnTrigger" "keypad_digit02_model,Enable,,0,-1"
+		"OnTrigger" "keypad_digit03_model,Enable,,0,-1"
+		"OnTrigger" "keypad_digit04_model,Enable,,0,-1"
+		"OnTrigger" "keypad_digit04_model,Skin,0,0,-1"
+		"OnTrigger" "keypad_digit03_model,Skin,0,0,-1"
+		"OnTrigger" "keypad_digit02_model,Skin,0,0,-1"
+		"OnTrigger" "keypad_digit01_model,Skin,0,0,-1"
+		"OnTrigger" "keypad_button*,Unlock,,0,-1"
+		"OnTrigger" "counter_digit01,Enable,,0,-1"
+		"OnTrigger" "counter_digit02,Disable,,0,-1"
+		"OnTrigger" "counter_digit03,Disable,,0,-1"
+		"OnTrigger" "counter_digit04,Disable,,0,-1"
+		"OnTrigger" "branch,SetValue,1,0,-1"
+	}
+	"origin" "24 -8 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}
