@@ -27,14 +27,16 @@ public:
 
 	CTwhlTower_Player();
 
+	void	Activate() OVERRIDE;
 	void	Spawn() OVERRIDE;
 	void	PostThink() OVERRIDE;
 	int		OnTakeDamage(const CTakeDamageInfo& inputInfo) OVERRIDE;
 
 	void	IncrementCollectedDiscsCount(const char* pszMessage = NULL);
-	inline int GetCollectedDiscCount() { return m_iCollectedDiscs; }
-	inline void	SetTotalDiscCount(int iTotalDiscs) { m_iTotalDiscs = iTotalDiscs; }
-	inline int GetTotalDiscCount() { return m_iTotalDiscs; }
+	inline int GetCollectedDiscCount() { return m_TwhlLocal.m_iCollectedDiscs; }
+	inline void	SetTotalDiscCount(int iTotalDiscs) { m_TwhlLocal.m_iTotalDiscs = iTotalDiscs; }
+	inline int GetTotalDiscCount() { return m_TwhlLocal.m_iTotalDiscs; }
+	inline void SetCurrentFloorDiscFound(bool bFound);
 	bool	HasWeaponThatUsesAmmoType(int nAmmoIndex);
 	bool	HasWeaponForAmmoSource(CBaseEntity* pEntity);
 	inline CBaseEntity* GetPotentialUseEntity() { return m_hPotentialUseEntity; }
@@ -51,12 +53,11 @@ private:
 	void	InputClearForwardSpeedOverride(inputdata_t& inputdata);
 	void	InputSetExplosiveDamageScale(inputdata_t& inputdata);
 	void	UpdateItemGlow();
+	void	UpdateMenuDvdCounterState();
 	void	SetGlowTarget(CBaseEntity* pEntity);
 	CBaseEntity*	FindNearGlowTarget();
 	CBaseEntity*	FindFarGlowTarget(float flMinDot = -1.0F);
 
-	int m_iCollectedDiscs;
-	int m_iTotalDiscs;
 	bool m_bIsNearGlowTarget;
 	EHANDLE m_hGlowTarget;
 	float m_flExplosiveDamageScale;
@@ -67,5 +68,12 @@ private:
 	CNetworkHandle(CBaseEntity, m_hPotentialUseEntity);
 	EHANDLE m_hLookAtEntity;
 };
+
+
+inline void CTwhlTower_Player::SetCurrentFloorDiscFound(bool const bFound)
+{
+	m_TwhlLocal.m_bFoundCurrentFloorDisc = bFound;
+}
+
 
 #endif // !TWHLTOWER_PLAYER_H

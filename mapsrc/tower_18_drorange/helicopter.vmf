@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "112"
+	"mapversion" "113"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "5"
+	"mapversion" "1"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -1127,6 +1127,7 @@ entity
 		"OnTrigger" "helicopter_takeoff_music,PlaySound,,0,-1"
 		"OnTrigger" "ending_ammostrip,StripWeaponsAndSuit,,0,-1"
 		"OnTrigger" "helicopter_sound,StopSound,,29.5,-1"
+		"OnTrigger" "helicopter_prop,Enable,,0,-1"
 	}
 	"origin" "1024 704 4672"
 	editor

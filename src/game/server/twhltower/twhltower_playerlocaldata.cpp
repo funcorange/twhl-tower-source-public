@@ -12,6 +12,10 @@
 #include "tier0/memdbgon.h"
 
 BEGIN_SIMPLE_DATADESC(CTwhlTowerPlayerLocalData)
+	DEFINE_FIELD(m_iCollectedDiscs,				FIELD_INTEGER),
+	DEFINE_FIELD(m_iTotalDiscs,					FIELD_INTEGER),
+	DEFINE_FIELD(m_bFoundCurrentFloorDisc,		FIELD_BOOLEAN),
+	DEFINE_FIELD(m_iMenuDvdCounterState,		FIELD_INTEGER),
 	DEFINE_FIELD(m_bIsMousePitchOverriden,		FIELD_BOOLEAN),
 	DEFINE_FIELD(m_bIsForwardSpeedOverriden,	FIELD_BOOLEAN),
 	DEFINE_FIELD(m_bIsSideSpeedOverriden,		FIELD_BOOLEAN),
@@ -23,6 +27,10 @@ BEGIN_SIMPLE_DATADESC(CTwhlTowerPlayerLocalData)
 END_DATADESC()
 
 BEGIN_SEND_TABLE_NOBASE(CTwhlTowerPlayerLocalData, DT_TwhlLocal)
+	SendPropInt(SENDINFO(m_iCollectedDiscs)),
+	SendPropInt(SENDINFO(m_iTotalDiscs)),
+	SendPropBool(SENDINFO(m_bFoundCurrentFloorDisc)),
+	SendPropInt(SENDINFO(m_iMenuDvdCounterState), 2, SPROP_UNSIGNED),
 	SendPropBool(SENDINFO(m_bIsMousePitchOverriden)),
 	SendPropBool(SENDINFO(m_bIsForwardSpeedOverriden)),
 	SendPropBool(SENDINFO(m_bIsSideSpeedOverriden)),
@@ -38,6 +46,8 @@ END_SEND_TABLE()
 //------------------------------------------------------------------------------
 CTwhlTowerPlayerLocalData::CTwhlTowerPlayerLocalData()
 {
+	m_iCollectedDiscs			= 0;
+	m_iTotalDiscs				= 0;
 	m_bIsMousePitchOverriden	= false;
 	m_bIsForwardSpeedOverriden	= false;
 	m_bIsSideSpeedOverriden		= false;

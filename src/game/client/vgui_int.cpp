@@ -34,6 +34,10 @@
 #include "tf_gamerules.h"
 #endif
 
+#ifdef TWHLTOWER
+#include "twhltower/menu_dvd_counter.h"
+#endif
+
 using namespace vgui;
 
 void MP3Player_Create( vgui::VPANEL parent );
@@ -231,6 +235,10 @@ void VGui_CreateGlobalPanels( void )
 #endif
 #ifdef SIXENSE
 	g_pSixenseInput->CreateGUI( gameToolParent );
+#endif
+#ifdef TWHLTOWER
+	VPANEL gameUiDllPanel = enginevgui->GetPanel(PANEL_GAMEUIDLL);
+	CreateMenuDvdCounter(gameUiDllPanel, "MenuDvdCounter");
 #endif
 }
 

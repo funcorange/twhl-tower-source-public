@@ -8,6 +8,7 @@
 #define TWHLTOWER_PLAYERLOCALDATA_H
 
 #include "dt_recv.h"
+#include "../shared/twhltower/menu_dvd_counter_state.h"
 
 class C_TwhlTowerPlayerLocalData
 {
@@ -16,6 +17,12 @@ public:
 	DECLARE_EMBEDDED_NETWORKVAR();
 
 	C_TwhlTowerPlayerLocalData();
+
+	// DVD counter
+	int m_iCollectedDiscs;
+	int m_iTotalDiscs;
+	bool m_bFoundCurrentFloorDisc;
+	MenuDvdCounterState_e m_iMenuDvdCounterState;
 
 	// Input overrides
 	bool	m_bIsMousePitchOverriden;

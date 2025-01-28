@@ -61,6 +61,7 @@ bool CItemDisc::MyTouch(CBasePlayer* pPlayer)
 		return true;
 
 	pTwhlTowerPlayer->IncrementCollectedDiscsCount(STRING(m_iszMessage));
+	pTwhlTowerPlayer->SetCurrentFloorDiscFound(true);
 
 	IGameEvent* pEvent = gameeventmanager->CreateEvent("disc_pickup");
 	if (pEvent)

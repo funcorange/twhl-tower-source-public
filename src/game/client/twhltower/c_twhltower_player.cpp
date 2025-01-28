@@ -9,6 +9,7 @@
 #include "c_twhltower_player.h"
 #include "in_main.h"
 #include "in_mouse.h"
+#include "menu_dvd_counter.h"
 
 // memdbgon must be the last include file in a .cpp file!!!
 #include "tier0/memdbgon.h"
@@ -94,6 +95,14 @@ void C_TwhlTower_Player::OnDataChanged(DataUpdateType_t updateType)
 		{
 			g_bIsForwardSpeedOverriden	= false;
 		}
+
+		// Update menu DVD counter
+		g_pMenuDvdCounter->SetTotal(m_TwhlLocal.m_iTotalDiscs);
+		g_pMenuDvdCounter->SetCount(m_TwhlLocal.m_iCollectedDiscs);
+		g_pMenuDvdCounter->SetCurrentFloorDiscFound(
+			m_TwhlLocal.m_bFoundCurrentFloorDisc
+		);
+		g_pMenuDvdCounter->SetState(m_TwhlLocal.m_iMenuDvdCounterState);
 	}
 
 	UpdateGlowEffect();

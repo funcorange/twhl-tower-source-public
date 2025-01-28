@@ -11,6 +11,9 @@
 #include "igameevents.h"
 #include "item_ammo.h"
 #include "items.h"
+#include "mapentities_shared.h"
+#include "point_template.h"
+#include "TemplateEntities.h"
 
 // memdbgon must be the last include file in a .cpp file!!!
 #include "tier0/memdbgon.h"
@@ -41,8 +44,6 @@ BEGIN_DATADESC(CTwhlTower_Player)
 	DEFINE_INPUTFUNC(FIELD_FLOAT,	"ClearForwardSpeedOverride",	InputClearForwardSpeedOverride),
 	DEFINE_INPUTFUNC(FIELD_FLOAT,	"SetExplosiveDamageScale",		InputSetExplosiveDamageScale),
 
-	DEFINE_FIELD(m_iCollectedDiscs, FIELD_INTEGER),
-	DEFINE_FIELD(m_iTotalDiscs, FIELD_INTEGER),
 	DEFINE_FIELD(m_bIsNearGlowTarget, FIELD_BOOLEAN),
 	DEFINE_FIELD(m_hGlowTarget, FIELD_EHANDLE),
 	DEFINE_FIELD(m_flExplosiveDamageScale, FIELD_FLOAT),
@@ -64,8 +65,6 @@ END_SEND_TABLE()
 // Purpose: Constructor
 //------------------------------------------------------------------------------
 CTwhlTower_Player::CTwhlTower_Player() :
-	m_iCollectedDiscs(0),
-	m_iTotalDiscs(0),
 	m_bIsNearGlowTarget(false),
 	m_hGlowTarget(),
 	m_flExplosiveDamageScale(),
@@ -79,6 +78,29 @@ CTwhlTower_Player::CTwhlTower_Player() :
 
 
 //------------------------------------------------------------------------------
+// Purpose: Called on entity activation
+//------------------------------------------------------------------------------
+void CTwhlTower_Player::Activate()
+{
+	BaseClass::Activate();
+	switch (gpGlobals->eLoadType)
+	{
+		case MapLoad_NewGame:
+		case MapLoad_Transition:
+		{
+			SetCurrentFloorDiscFound(false);
+			UpdateMenuDvdCounterState();
+			break;
+		}
+		default:
+		{
+			break;
+		}
+	}
+}
+
+
+//------------------------------------------------------------------------------
 // Purpose: Called on entity spawn
 //------------------------------------------------------------------------------
 void CTwhlTower_Player::Spawn()
@@ -87,6 +109,8 @@ void CTwhlTower_Player::Spawn()
 
 	m_flExplosiveDamageScale = 1.0F;
 	m_GlowColor = {255, 208, 64, 255};
+
+	UpdateMenuDvdCounterState();
 
 	BaseClass::Spawn();
 }
@@ -202,14 +226,14 @@ int CTwhlTower_Player::OnTakeDamage(const CTakeDamageInfo& inputInfo)
 //------------------------------------------------------------------------------
 void CTwhlTower_Player::IncrementCollectedDiscsCount(const char* pszMessage)
 {
-	m_iCollectedDiscs++;
+	m_TwhlLocal.m_iCollectedDiscs++;
 
 	CSingleUserRecipientFilter user(this);
 	user.MakeReliable();
 
 	UserMessageBegin(user, "DvdMessage");
-		WRITE_BYTE(m_iCollectedDiscs);
-		WRITE_BYTE(m_iTotalDiscs);
+		WRITE_BYTE(m_TwhlLocal.m_iCollectedDiscs);
+		WRITE_BYTE(m_TwhlLocal.m_iTotalDiscs);
 		WRITE_STRING(pszMessage);
 	MessageEnd();
 }
@@ -440,6 +464,98 @@ void CTwhlTower_Player::UpdateItemGlow()
 	// Clear glow target
 	if (m_hGlowTarget)
 		SetGlowTarget(NULL);
+}
+
+
+//-----------------------------------------------------------------------------
+// Purpose: Set whether or not to show DVD counter, and if it should show the
+//			current floor status or not.
+//-----------------------------------------------------------------------------
+void CTwhlTower_Player::UpdateMenuDvdCounterState()
+{
+	// Check if there is a disc currently in the map
+	bool bFoundDisc = (gEntList.FindEntityByClassname(
+		NULL,
+		"item_disc"
+	) != NULL);;
+	
+	if (!bFoundDisc)
+	{
+		// Check if there is a disc in any template
+		for (
+			CBaseEntity* pEnt = gEntList.FindEntityByClassname(
+				NULL,
+				"point_template"
+			);
+			pEnt != NULL;
+			pEnt = gEntList.FindEntityByClassname(pEnt, "point_template")
+		)
+		{
+			CPointTemplate* pTemplate = dynamic_cast<CPointTemplate*>(pEnt);
+			if (pTemplate == NULL)
+			{
+				continue;
+			}
+			int const nTemplates = pTemplate->GetNumTemplates();
+			for (int i = 0; i < nTemplates; ++i)
+			{
+				// Extract template data from template
+				char const* const pszTemplate = STRING(Templates_FindByIndex(
+					pTemplate->GetTemplateIndexForTemplate(i)
+				));
+				if (pszTemplate == NULL)
+				{
+					continue;
+				}
+
+				// Get entity class name of template
+				char szClass[MAPKEY_MAXLENGTH] = { 0 };
+				if (!MapEntity_ExtractValue(
+					pszTemplate,
+					"classname",
+					szClass
+				))
+				{
+					continue;
+				}
+
+				if (V_strcasecmp(szClass, "item_disc") == 0)
+				{
+					bFoundDisc = true;
+					break;
+				}
+			}
+			if (bFoundDisc)
+			{
+				break;
+			}
+		}
+	}
+
+	/*
+	 * Always show counter and current floor status if there is a disc in the
+	 * level.
+	 */
+	if (bFoundDisc)
+	{
+		m_TwhlLocal.m_iMenuDvdCounterState =
+			MenuDvdCounterState_TotalAndCurrent;
+		return;
+	}
+	/*
+	 * Only show counter if we have collected discs in previous levels but
+	 * there is no disc in the current level.
+	 */
+	if (GetCollectedDiscCount() > 0)
+	{
+		m_TwhlLocal.m_iMenuDvdCounterState = MenuDvdCounterState_TotalOnly;
+		return;
+	}
+	/*
+	 * Don't show counter if there is no disc in the current level and we have
+	 * never collected any discs.
+	 */
+	m_TwhlLocal.m_iMenuDvdCounterState = MenuDvdCounterState_Hidden;
 }
 
 

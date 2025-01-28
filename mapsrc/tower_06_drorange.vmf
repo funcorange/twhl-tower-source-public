@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "2098"
+	"mapversion" "2107"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -176,18 +176,18 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "2098"
+	"mapversion" "2107"
 	"classname" "worldspawn"
 	"chaptertitle" "#twhltower_Chapter6_Title"
 	"chaptertitlenomessage" "1"
-	"detailmaterial" "detail/detailsprites"
-	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites_hl2"
+	"detailvbsp" "detail_hl2.vbsp"
 	"maxpropscreenwidth" "-1"
 	"newunit" "1"
 	"skyname" "sky_day01_05_hdr"
@@ -123303,8 +123303,7 @@ entity
 	"targetname" "soldiers2_counter"
 	connections
 	{
-		"OnHitMax" "door_break_03,Break,,0,-1"
-		"OnHitMax" "soldiers3_template,ForceSpawn,,0,-1"
+		"OnHitMax" "door_break_03_relay,Trigger,,0,-1"
 	}
 	"origin" "512 960 64"
 	editor
@@ -124029,6 +124028,7 @@ entity
 	connections
 	{
 		"OnStartTouch" "soldiers2_1_template,ForceSpawn,,0,-1"
+		"OnStartTouch" "door_break_03_timer,Enable,,0,-1"
 	}
 	solid
 	{
@@ -145970,6 +145970,48 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "169285"
+	"classname" "logic_timer"
+	"RefireTime" "60"
+	"StartDisabled" "1"
+	"targetname" "door_break_03_timer"
+	connections
+	{
+		"OnTimer" "door_break_03_relay,Trigger,,0,-1"
+	}
+	"origin" "496 864 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "169295"
+	"classname" "logic_relay"
+	"spawnflags" "1"
+	"targetname" "door_break_03_relay"
+	connections
+	{
+		"OnTrigger" "soldiers3_template,ForceSpawn,,0,-1"
+		"OnTrigger" "door_break_03,Break,,0,-1"
+		"OnTrigger" "door_break_03_timer,Kill,,0,-1"
+		"OnTrigger" "soldiers2_counter,Disable,,0,-1"
+	}
+	"origin" "512 864 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras

@@ -151,6 +151,10 @@
 #include "vscript_client.h"
 #endif
 
+#ifdef TWHLTOWER
+#include "twhltower/menu_dvd_counter.h"
+#endif
+
 extern vgui::IInputInternal *g_InputInternal;
 
 //=============================================================================
@@ -775,6 +779,7 @@ public:
 		CreateInterfaceFn physicsFactory,
 		CGlobalVarsBase* pGlobals
 	) OVERRIDE;
+	void LevelInitPostEntity() OVERRIDE;
 
 	void Shutdown() OVERRIDE;
 };
@@ -2779,6 +2784,16 @@ int CTWHLTowerClient::Init(
 #endif
 
 	return result;
+}
+
+
+//-----------------------------------------------------------------------------
+// Purpose: Initialize client on level load
+//-----------------------------------------------------------------------------
+void CTWHLTowerClient::LevelInitPostEntity()
+{
+	BaseClass::LevelInitPostEntity();
+	UpdateMenuDvdCounter();
 }
 
 

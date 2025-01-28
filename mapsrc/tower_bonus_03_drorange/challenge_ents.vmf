@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "661"
+	"mapversion" "664"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -19124,15 +19124,15 @@ entity
 	"targetname" "relay_ending"
 	connections
 	{
-		"OnTrigger" "ending_viewcontrol,Enable,,2,-1"
+		"OnTrigger" "ending_viewcontrol,Enable,,2.01,-1"
 		"OnTrigger" "ending_fade,Fade,,0,-1"
 		"OnTrigger" "ending_weaponstrip,StripWeaponsAndSuit,,2,-1"
 		"OnTrigger" "ending_text_1,Display,,3,-1"
 		"OnTrigger" "ending_text_2,Display,,12,-1"
 		"OnTrigger" "ending_credits,RollOutroCredits,,22,-1"
 		"OnTrigger" "ending_credits_music,PlaySound,,22,-1"
-		"OnTrigger" "goo_hurt,Kill,,2,-1"
-		"OnTrigger" "pit_trigger,Kill,,2,-1"
+		"OnTrigger" "!player,DisableGeigerCounter,,1.9,-1"
+		"OnTrigger" "ending_teleport,Teleport,,2,-1"
 	}
 	"origin" "-376 2168 8"
 	editor
@@ -19263,6 +19263,37 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "23225"
+	"classname" "env_soundscape"
+	"radius" "128"
+	"soundscape" "Nothing"
+	"origin" "-320 2112 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "23250"
+	"classname" "point_teleport"
+	"angles" "0 0 0"
+	"target" "!player"
+	"targetname" "ending_teleport"
+	"origin" "-352 2112 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras

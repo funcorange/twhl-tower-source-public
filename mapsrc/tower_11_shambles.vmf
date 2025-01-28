@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "991"
+	"mapversion" "996"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -127,18 +127,24 @@ visgroups
 			"visgroupid" "46"
 			"color" "137 110 199"
 		}
-	}
-	visgroup
-	{
-		"name" "_old ladder"
-		"visgroupid" "44"
-		"color" "83 80 161"
-	}
-	visgroup
-	{
-		"name" "_old platform"
-		"visgroupid" "45"
-		"color" "110 119 100"
+		visgroup
+		{
+			"name" "_instructor hint"
+			"visgroupid" "47"
+			"color" "203 184 185"
+		}
+		visgroup
+		{
+			"name" "_old ladder"
+			"visgroupid" "44"
+			"color" "83 80 161"
+		}
+		visgroup
+		{
+			"name" "_old platform"
+			"visgroupid" "45"
+			"color" "110 119 100"
+		}
 	}
 }
 viewsettings
@@ -146,13 +152,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "991"
+	"mapversion" "996"
 	"classname" "worldspawn"
 	"chaptertitle" "#twhltower_Chapter11_Title"
 	"chaptertitlenomessage" "1"
@@ -46819,6 +46825,158 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "414706"
+		side
+		{
+			"id" "51082"
+			"plane" "(752 1244 148) (800 1244 148) (800 1204 148)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51083"
+			"plane" "(752 1204 144) (800 1204 144) (800 1244 144)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51084"
+			"plane" "(752 1244 148) (752 1204 148) (752 1204 144)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51085"
+			"plane" "(800 1244 144) (800 1204 144) (800 1204 148)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51086"
+			"plane" "(800 1244 148) (752 1244 148) (752 1244 144)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51087"
+			"plane" "(800 1204 144) (752 1204 144) (752 1204 148)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 165 154"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "414707"
+		side
+		{
+			"id" "51088"
+			"plane" "(1136 1244 148) (1184 1244 148) (1184 1204 148)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51089"
+			"plane" "(1136 1204 144) (1184 1204 144) (1184 1244 144)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51090"
+			"plane" "(1136 1244 148) (1136 1204 148) (1136 1204 144)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51091"
+			"plane" "(1184 1244 144) (1184 1204 144) (1184 1204 148)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51092"
+			"plane" "(1184 1244 148) (1136 1244 148) (1136 1244 144)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "51093"
+			"plane" "(1184 1204 144) (1136 1204 144) (1136 1204 148)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 107 144"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	group
 	{
 		"id" "285"
@@ -78358,28 +78516,32 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
-entity
+hidden
 {
-	"id" "375572"
-	"classname" "env_instructor_hint"
-	"hint_allow_nodraw_target" "1"
-	"hint_caption" "#twhltower_Instructor_Laser"
-	"hint_color" "255 255 255"
-	"hint_icon_offscreen" "icon_tip"
-	"hint_icon_onscreen" "icon_alert"
-	"hint_local_player_only" "No"
-	"hint_start_sound" "Instructor.LessonStart"
-	"hint_static" "1"
-	"hint_target_pos" "0"
-	"hint_timeout" "5"
-	"targetname" "instructor_message"
-	"origin" "280 688 128"
-	editor
+	entity
 	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
+		"id" "375572"
+		"classname" "env_instructor_hint"
+		"hint_allow_nodraw_target" "1"
+		"hint_caption" "#twhltower_Instructor_Laser"
+		"hint_color" "255 255 255"
+		"hint_icon_offscreen" "icon_tip"
+		"hint_icon_onscreen" "icon_alert"
+		"hint_local_player_only" "No"
+		"hint_start_sound" "Instructor.LessonStart"
+		"hint_static" "1"
+		"hint_target_pos" "0"
+		"hint_timeout" "5"
+		"targetname" "instructor_message"
+		"origin" "280 688 128"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupid" "47"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
 	}
 }
 entity
@@ -104449,7 +104611,7 @@ entity
 		"OnTrigger" "laser_sound,ToggleSound,,10,-1"
 		"OnTrigger" "laser_func_button*,Lock,,0,-1"
 		"OnTrigger" "laser_func_button*,Unlock,,10,-1"
-		"OnTrigger" "instructor_message,ShowHint,,0,-1"
+		"OnTrigger" "message,Display,,0,-1"
 	}
 	"origin" "279.814 724 123.916"
 	editor
@@ -104468,16 +104630,16 @@ entity
 	"channel" "1"
 	"color" "100 100 100"
 	"color2" "240 110 0"
-	"effect" "0"
-	"fadein" "1.5"
+	"effect" "2"
+	"fadein" "0.01"
 	"fadeout" "0.5"
 	"fxtime" "0.25"
-	"holdtime" "1.5"
-	"message" "The laser has been shut off for 10 seconds!"
+	"holdtime" "3.5"
+	"message" "#twhltower_Instructor_Laser"
 	"spawnflags" "0"
 	"targetname" "message"
 	"x" "-1"
-	"y" "0.75"
+	"y" "0.6"
 	"origin" "280 704 128"
 	editor
 	{
